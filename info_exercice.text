@@ -1,0 +1,10 @@
+Pour faire un test : 
+
+Il faut bien créer et changer la bdd avec le nom "randonneurs" ou changer directement le DSN dans "connect.php"
+
+Pour se connecter (sur ma machine) : username "terence" avec mdp "Moutons-68" -> on se connecte bien et on arrive sur index.php
+
+Pour inscrire un nouveau utilisateurs : 
+  créer un mdp avec : au moins 8 caractères, une majuscule, une minuscule, un chiffre et un caractère spécial.
+  écrire correctement deux fois le mdp
+  puis se connecter sur "page-connexion.php"
