@@ -47,15 +47,14 @@ $_SESSION['error'] = new MyError();
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/style.css"/>
     <title>Le Club des Randonneurs</title>
   </head>
   <body>
     <main>
       
-      <header class="header">
-        <h1>Le Club <span> des Randonneurs</span></h1>
-      </header>
+      <!-- include le header ici -->
+      <?php include("SRC/header.php"); ?>
 
       <!-- message d'erreur qu'on récupère dans l'URL s'il existe (isset) -->
       <p>

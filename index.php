@@ -39,7 +39,7 @@ $_SESSION['error'] = new MyError();
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/style.css"/>
     <title>Le Club des Randonneurs</title>
   </head>
   <body>

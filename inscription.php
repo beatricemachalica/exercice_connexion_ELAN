@@ -11,7 +11,6 @@ session_start();
 
 <!-- code HTML à partir d'ici, avec un formulaire d'inscription -->
 
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -29,14 +28,13 @@ session_start();
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/style.css"/>
     <title>Inscription</title>
 </head>
 <body>
 <main>
-    <header class="header">
-        <h1>Le Club <span> des Randonneurs</span></h1>
-    </header>
+      <!-- include le header ici -->
+      <?php include("SRC/header.php"); ?>
 
     <!-- message d'erreur qu'on récupère dans l'URL ($_GET) s'il existe (isset) -->
     <p>
