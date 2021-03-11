@@ -16,7 +16,7 @@
     // $name = htmlentities(trim($_POST['username']));
     // $pwd  = htmlentities(trim($_POST['password']));
 
-    // Ou on peut utiliser la seconde méthode avec filter_input & Regex :
+    // Ou on peut utiliser la seconde méthode avec filter_input avec ou sans Regex :
 
     // filter_input — Récupère une variable externe et la filtre
         // en paramètres : type de la constante ici INPUT_POST, puis nom de la variable ici 'username',
@@ -25,6 +25,7 @@
         // options : FILTER_FLAG_STRIP_LOW | FILTER_FLAG_STRIP_HIGH
         // FILTER_FLAG_STRIP_LOW : "Strips characters that have a numerical value <32."
         // FILTER_FLAG_STRIP_HIGH : "Strips characters that have a numerical value >127."
+    
     // Attention ! on n'utilise plus htmlspecialchars()
 
     $name = filter_input(INPUT_POST, 'username', FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_STRIP_HIGH) ;

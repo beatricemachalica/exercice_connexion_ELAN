@@ -21,6 +21,9 @@ $_SESSION['error'] = new MyError();
 ?>
 
 <!-- code HTML de la page à partir d'ici -->
+<!-- l'index est ce qu'on appelle un "controleur frontal" -->
+<!-- Le contrôleur frontal va nous permettre d'intercepter toutes les requêtes et de renvoyer une réponse. 
+On va donc faire appel à index. php qui va jouer ce rôle et nous donner la page que l'on souhaite en fonction de notre besoin. -->
 
 <!DOCTYPE html>
 <html lang="fr">
